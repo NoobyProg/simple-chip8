@@ -1,7 +1,7 @@
 #ifndef CPU_HEADER
 #define CPU_HEADER
 
-unsigned char memory[4096] = {'\0'}; // Simulates the RAM
+unsigned char memory[4096]; // Simulates the RAM
 
 unsigned char pixels[2048]; // Stores the pixel states
 
